@@ -1,0 +1,28 @@
+/*Horizontal navbar*/
+
+nav{
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+li{
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+li:hover{
+    background-color: #FBAE3C;
+    color: black;
+    transform: scale(1.1);
+}

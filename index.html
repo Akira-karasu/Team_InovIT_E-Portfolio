@@ -1,13 +1,91 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../src/assets/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script>
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div class="blob-motion" style="right: -10%; top: -10%;">
+    <svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+      <g transform="translate(449.0646346601022 270.0554174071082)">
+        <path id="blob1"
+          d="M162.2 -168.7C187.2 -137.2 168.6 -68.6 164.9 -3.7C161.3 61.3 172.6 122.6 147.6 172.6C122.6 222.6 61.3 261.3 10.6 250.7C-40.1 240.1 -80.1 180.1 -112 130.1C-143.8 80.1 -167.4 40.1 -172.2 -4.8C-177.1 -49.7 -163.1 -99.5 -131.3 -131C-99.5 -162.5 -49.7 -175.7 9.4 -185.2C68.6 -194.6 137.2 -200.2 162.2 -168.7"
+          fill="none" stroke="#FBAE3C" stroke-width="6"></path>
+      </g>
+      <g transform="translate(509.48382882971555 327.3735713648385)" style="visibility: hidden">
+        <path id="blob2"
+          d="M100.4 -119.3C125.4 -75.4 137.7 -37.7 138.3 0.6C138.9 38.9 127.8 77.8 102.8 112.6C77.8 147.4 38.9 178.2 -0.4 178.6C-39.6 178.9 -79.2 148.9 -129.2 114C-179.2 79.2 -239.6 39.6 -253.9 -14.3C-268.1 -68.1 -236.2 -136.2 -186.2 -180.1C-136.2 -223.9 -68.1 -243.5 -15.2 -228.2C37.7 -213 75.4 -163.1 100.4 -119.3"
+          fill="none" stroke="#FBAE3C" stroke-width="6"></path>
+      </g>
+      <g transform="translate(450.1820753083464 347.4484852113246)" style="visibility: hidden">
+        <path id="blob3"
+          d="M149 -163.1C184.8 -113.1 199.9 -56.6 200.3 0.4C200.6 57.3 186.2 114.6 150.4 140.1C114.6 165.6 57.3 159.3 15.4 143.9C-26.5 128.5 -53 104 -93.5 78.5C-134 53 -188.5 26.5 -198.8 -10.3C-209.1 -47.1 -175.3 -94.3 -134.8 -144.3C-94.3 -194.3 -47.1 -247.1 4.7 -251.9C56.6 -256.6 113.1 -213.1 149 -163.1"
+          fill="none" stroke="#FBAE3C" stroke-width="6"></path>
+      </g>
+    </svg>
+  </div>
+
+  <div class="blob-motion" style="left: -10%; top: -10%;">
+    <svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+      <g transform="translate(501.1300181209435 291.9077606010015)">
+        <path id="blob4"
+          d="M119.2 -140.7C143.2 -95.2 143.6 -47.6 133.1 -10.5C122.5 26.5 101 53 77 103C53 153 26.5 226.5 -12.5 239.1C-51.6 251.6 -103.2 203.2 -152.4 153.2C-201.6 103.2 -248.3 51.6 -241.2 7.1C-234.1 -37.5 -173.3 -75 -124.1 -120.5C-75 -166 -37.5 -219.5 5.1 -224.5C47.6 -229.6 95.2 -186.2 119.2 -140.7"
+          fill="none" stroke="#FBAE3C" stroke-width="6"></path>
+      </g>
+      <g transform="translate(433.991310401217 334.47484436099126)" style="visibility: hidden">
+        <path id="blob5"
+          d="M155.1 -154.8C205.1 -105.1 252.6 -52.6 239.5 -13C226.5 26.5 153 53 103 86.2C53 119.4 26.5 159.2 -15.3 174.4C-57 189.7 -114.1 180.4 -152.9 147.2C-191.7 114.1 -212.4 57 -209.4 2.9C-206.5 -51.1 -180 -102.3 -141.1 -152C-102.3 -201.6 -51.1 -249.8 0.7 -250.5C52.6 -251.2 105.1 -204.5 155.1 -154.8"
+          fill="none" stroke="#FBAE3C" stroke-width="6"></path>
+      </g>
+      <g transform="translate(446.52010691283755 271.07866337087614)" style="visibility: hidden">
+        <path id="blob6"
+          d="M152.8 -138.4C194.8 -110.8 223.4 -55.4 225 1.6C226.7 58.7 201.4 117.4 159.4 155.7C117.4 194 58.7 212 -6 218C-70.7 224 -141.4 218.1 -180.4 179.8C-219.4 141.4 -226.7 70.7 -209 17.7C-191.4 -35.4 -148.7 -70.7 -109.7 -98.4C-70.7 -126 -35.4 -146 10 -156C55.4 -166.1 110.8 -166.1 152.8 -138.4"
+          fill="none" stroke="#FBAE3C" stroke-width="6"></path>
+      </g>
+    </svg>
+  </div>
+
+
+
+
+  <div id="root"></div>
+  <script>
+    const tween1 = KUTE.fromTo('#blob1', { path: '#blob1' }, { path: '#blob2' }, { duration: 3000 });
+    const tween2 = KUTE.fromTo('#blob1', { path: '#blob2' }, { path: '#blob3' }, { duration: 3000 });
+    const tween3 = KUTE.fromTo('#blob1', { path: '#blob3' }, { path: '#blob1' }, { duration: 3000 });
+
+    tween1.chain(tween2);
+    tween2.chain(tween3);
+    tween3.chain(tween1);
+    
+
+    const tween4 = KUTE.fromTo('#blob4', { path: '#blob4' }, { path: '#blob6' }, { duration: 3000 });
+    const tween5 = KUTE.fromTo('#blob5', { path: '#blob6' }, { path: '#blob5' }, { duration: 3000 });
+    const tween6 = KUTE.fromTo('#blob6', { path: '#blob5' }, { path: '#blob4' }, { duration: 3000 });
+
+    tween4.chain(tween4);
+    tween5.chain(tween5);
+    tween6.chain(tween6);
+    
+
+    tween1.start();
+    tween4.start();
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+
+</body>
+
 </html>
