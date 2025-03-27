@@ -17,12 +17,12 @@ ul{
 
 li{
     border-radius: 20px;
-    padding: 10px;
+    padding: 5px;
     transition: all 0.3s ease;
 }
 
 li:hover{
-    background-color: #FBAE3C;
+    background-color: #FF7D00;
     color: black;
     transform: scale(1.1);
 }
