@@ -1,0 +1,26 @@
+.custom-button {
+    background-color: #F4A73F;
+    color: black;
+    padding: 4 2; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    font-weight: 300; 
+    font-family: "Poppins", sans-serif;
+    transition: all 150ms ease-in-out;
+    height: 2rem;
+    width: auto; 
+    min-width: 100px; 
+    max-width: 100%; 
+}
+
+/* Hover Effects */
+.custom-button:hover {
+    background-color: black;
+    color: #F4A73F;
+}
+
+/* Active (Click) Effects */
+.custom-button:active {
+    transform: scale(0.95);
+    background-color: #c5862b;
+}
