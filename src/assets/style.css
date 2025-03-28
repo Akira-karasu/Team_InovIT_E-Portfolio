@@ -204,3 +204,26 @@ body{
   position:fixed;
   transform: translateY(-20%);
 }
+
+.hiddens{
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateY(40px);
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+
+@media (prefers-reduced-motion) {
+  .hidden{
+    transition: none;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+}
+

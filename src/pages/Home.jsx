@@ -1,15 +1,23 @@
+<<<<<<< HEAD
 import Button from "../components/button.jsx";
 import IconButton from "../components/iconButton.jsx";
 import GitHubIcon from "../assets/images/github.png";
 import FacebookIcon from "../assets/images/facebook.png";
 import LinkedInIcon from "../assets/images/linkedin.png";
+=======
+
+import useIntersectionObserver from "../hooks/useIntersectionObserver.jsx";
+>>>>>>> 275a8070b63b3f76d494d94e859bec2459a9e09b
 
 function HomePage() {
-    return (
-      <div className="con" id="home">
-        <h1 className="poppins-Main-Heading">
+  useIntersectionObserver();
+
+  return (
+    <div className="con" id="home">
+        <h1 className="hiddens poppins-Main-Heading">
           Welcome to the Home <span style={{ color: '#FF7D00' }}>Page</span>
         </h1>
+<<<<<<< HEAD
         <p className="poppins-Sub-Heading">This is a simple React component.</p>
         
         <br />
@@ -25,8 +33,11 @@ function HomePage() {
           <IconButton  facebook={<img src={FacebookIcon} alt="Facebook" onClick={() => window.open("https://www.facebook.com/xavierclyde.bitancor", "_blank")}/>} />
           <IconButton  linkedin={<img src={LinkedInIcon} alt="LinkedIn" onClick={() => window.open("https://linkedin.com", "_blank")}/>} /> 
         </div>
+=======
+        <p className="hiddens poppins-Sub-Heading">This is a simple React component.</p>
+>>>>>>> 275a8070b63b3f76d494d94e859bec2459a9e09b
       </div>
-    );
-  }
-  
-  export default HomePage;
+  );
+}
+
+export default HomePage;
