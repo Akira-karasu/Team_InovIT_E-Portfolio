@@ -15,12 +15,7 @@
 
 /* Hover Effects */
 .custom-button:hover {
-    background-color: black;
+    background-color: #FF7D00;
     color: #F4A73F;
 }
 
-/* Active (Click) Effects */
-.custom-button:active {
-    transform: scale(0.95);
-    background-color: #c5862b;
-}
