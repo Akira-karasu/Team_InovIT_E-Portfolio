@@ -1,23 +1,18 @@
 import "./button.css";
 
 
-function Button({ text = "title", onClick }){
+function Tags({ text = "title"}){
     return (
         <div>
-
             <button 
             className="custom-button"
-            onClick={onClick}
             >
             {text}
             </button>
-
-    
-
         </div>
 
         
     )
 };
 
-export default Button;
+export default Tags;
