@@ -1,7 +1,7 @@
 import "./iconButton.css";
 
 
-function iconButton({ onClick, github, facebook, linkedin }){
+function iconButton({github, facebook, linkedin }){
     return (
         <div>
 
@@ -12,13 +12,13 @@ function iconButton({ onClick, github, facebook, linkedin }){
           )}
 
           {facebook && (
-            <button className="facebook-icon" onClick={() => window.open("https://facebook.com", "_blank")}>
+            <button className="facebook-icon">
               {facebook}
             </button>
           )}
 
           {linkedin && (
-             <button className="linkedin-icon" onClick={() => window.open("https://linkedin.com", "_blank")}>
+             <button className="linkedin-icon">
               {linkedin}
             </button>
           )}
