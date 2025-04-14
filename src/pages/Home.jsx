@@ -5,7 +5,7 @@ function HomePage() {
   useIntersectionObserver();
 
   return (
-  <div id="home" className="flex flex-col justify-center items-center" style={{marginBottom: "10px"}}>
+  <div id="home" className="flex flex-col justify-center items-center">
     <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full max-w-6xl mx-auto px-6 gap-4 h-screen w-full">
       <div className="hiddens text-center md:text-left p-4">
         <h1 className="text-3xl md:text-5xl font-bold poppins-Main-Heading">
@@ -20,7 +20,7 @@ function HomePage() {
         <img src="/innov_icon2.png" alt="logo" className="w-64 sm:w-80 md:w-96 h-auto" />
       </div>
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full max-w-6xl mx-auto px-6 gap-4" style={{padding: "15px"}}>
+    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full h-screen max-w-6xl mx-auto px-6 gap-4" style={{padding: "15px"}}>
       <HomeCard
         img="/mission.png"
         title="Mission"
