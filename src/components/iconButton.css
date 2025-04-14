@@ -1,5 +1,3 @@
-
-
 /* icon-btn */
 
 .icon-btn {
@@ -42,6 +40,53 @@
 .icon-btn img {
     width:30px; 
     height: 30px; 
+    filter: brightness(1);
+    transition: filter 0.3s ease-in-out;
+}
+
+
+/* TP-btn */
+
+.TP-btn {
+    background-color: #f3f3f2;
+    color: #F4A73F;
+    padding: 5px; 
+    border-radius: 50px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+/* Hover Effect */
+.TP-btn:hover {
+    background-color: #F4A73F;
+    color: white;
+}
+/* Hover Effect */
+.TP-btn:hover img{
+    filter: brightness(0) invert(1); 
+}
+
+/* Active (Click) Effect */
+.TP-btn:active {
+    background-color: white; 
+    transform: scale(0.95); 
+}
+
+/* Keep Image Same Color on Active */
+.TP-btn:active img {
+    filter: brightness(0); 
+}
+
+/* img Styling */
+.TP-btn img {
+    width:20px; 
+    height: 20px; 
     filter: brightness(1);
     transition: filter 0.3s ease-in-out;
 }

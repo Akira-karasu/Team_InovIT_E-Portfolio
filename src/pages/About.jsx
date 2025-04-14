@@ -4,10 +4,18 @@ function AboutPage() {
     useIntersectionObserver();
     return (
       <div className="con" id="about">
-        <h1 className="hiddens poppins-Main-Heading">
-          Welcome to the About <span style={{ color: '#FF7D00' }}>Page</span>
-        </h1>
-        <p className="hiddens poppins-Sub-Heading">This is a simple React component.</p>
+        <div className="flex"> 
+          <div>
+            <h1 className="hiddens poppins-Main-Heading">
+               About <span style={{ color: '#FF7D00' }}>Us</span>
+            </h1>
+          </div>
+
+          <div>
+            <img style={{ width:"30px", height:"75px", marginLeft: "10px", paddingBottom:"22px" }} src="/innov_about2.png" alt="logo" className="hiddens " />
+          </div>
+
+        </div>
       </div>
     );
   }

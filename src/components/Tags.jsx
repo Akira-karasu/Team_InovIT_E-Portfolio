@@ -1,14 +1,22 @@
 import "./button.css";
 
 
-function Tags({ text = "title"}){
+function Tags({ text, tags }) {
     return (
         <div>
-            <button 
-            className="custom-button"
-            >
-            {text}
-            </button>
+            
+            {text && (
+                <button className="custom-button">
+                  {text}
+                </button>
+            )}
+
+            {tags && (
+                <button className="tags-button">
+                  {tags}
+                </button>
+            )}
+
         </div>
 
         

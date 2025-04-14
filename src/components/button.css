@@ -15,12 +15,38 @@
 
 /* Hover Effects */
 .custom-button:hover {
-<<<<<<< HEAD
+
     background-color: white;
     color: #F4A73F;
-=======
+
     background-color: #FF7D00;
     color: #ffffff;
->>>>>>> 561bb52b0cd2090dd0c716dfd497667b3233c468
+
+}
+
+.tags-button {
+    background-color: #F4A73F;
+    color: black;
+    padding: 4 2; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    font-weight: 300; 
+    font-family: "Poppins", sans-serif;
+    transition: all 150ms ease-in-out;
+    height: 20px;
+    width: auto; 
+    min-width: 40px; 
+    max-width: 100%; 
+}
+
+/* Hover Effects */
+.tags-button:hover {
+
+    background-color: white;
+    color: #F4A73F;
+
+    background-color: #FF7D00;
+    color: #ffffff;
+
 }
 
