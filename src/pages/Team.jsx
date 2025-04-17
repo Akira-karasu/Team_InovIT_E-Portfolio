@@ -7,7 +7,7 @@ function TeamPage() {
         
         <div className="hiddens text-center md:text-left p-4 ">
             <h1 style={{ fontSize: "35px" }} className="poppins-Main-Heading">
-              Team-<span style={{ color: "#FF7D00" }}>Projects</span>
+              Team <span style={{ color: "#FF7D00" }}>Projects</span>
             </h1>
         </div>
         

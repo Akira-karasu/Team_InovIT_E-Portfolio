@@ -1,9 +1,3 @@
-
-import Button from "../components/Tags.jsx";
-import IconButton from "../components/iconButton.jsx";
-import GitHubIcon from "../assets/images/github.png";
-import FacebookIcon from "../assets/images/facebook.png";
-import LinkedInIcon from "../assets/images/linkedin.png";
 import useIntersectionObserver from "../hooks/useIntersectionObserver.jsx";
 import HomeCard from "../components/home_card.jsx";
 
@@ -12,13 +6,8 @@ function HomePage() {
   useIntersectionObserver();
 
   return (
-<<<<<<< HEAD
   <div id="home" className="flex flex-col justify-center items-center" style={{marginBottom: "10px"}}>
     <div className="grid grid-cols-1 md:grid-cols-2 place-items-center max-w-6xl mx-auto px-6 gap-4 h-screen w-full">
-=======
-  <div id="home" className="flex flex-col justify-center items-center">
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full max-w-6xl mx-auto px-6 gap-4 h-screen w-full">
->>>>>>> a5e0ade40803251665530f05edbba272e96d7eb5
       <div className="hiddens text-center md:text-left p-4">
         <h1 className="text-3xl md:text-5xl font-bold poppins-Main-Heading">
           Innov-<span style={{ color: "#FF7D00" }}>IT</span>
