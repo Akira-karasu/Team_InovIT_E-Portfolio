@@ -11,7 +11,7 @@ function ContactPage() {
         
         <div>  
 
-          <div id="home" className="flex flex-col justify-center items-center" style={{marginBottom: "10px"}}>
+          <div className="flex flex-col justify-center items-center" style={{marginBottom: "10px"}}>
             <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full max-w-6xl mx-auto px-6 gap-4 h-screen w-full">
 
               <div className="hiddens p-4 flex justify-center">
@@ -21,7 +21,7 @@ function ContactPage() {
               <div className="hiddens text-center md:text-left p-4">
 
                 <h1 className="text-3xl md:text-5xl font-bold poppins-Main-Heading">
-                  Contact - <span style={{ color: "#FF7D00" }}>Us</span>
+                  Contact <span style={{ color: "#FF7D00" }}>Us</span>
                 </h1>
 
                 <h2 style={{marginTop: "10px"}} className="mt-4 text-lg sm:text-xl md:text-2xl poppins-Section-Titles w-90">

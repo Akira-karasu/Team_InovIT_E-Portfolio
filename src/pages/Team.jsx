@@ -3,10 +3,20 @@ import TeamCard from "../components/team_card.jsx";
 function TeamPage() {
     useIntersectionObserver();
     return (
-      <div className="flex flex-col items-center justify-center gap-5" id="team" style={{marginTop:"40px",marginBottom:"40px", paddingTop:"50px"}}>
-        <h1 className="hiddens text-3xl md:text-5xl font-bold poppins-Main-Heading">
-          Team <span style={{ color: "#FF7D00" }}>Members</span>
-        </h1>
+      <div className="flex flex-col items-center justify-center" style={{marginTop:"40px",marginBottom:"40px", paddingTop:"50px"}} id="team">
+
+        <div className="flex"> 
+            <div className="hiddens text-center md:text-left p-4 ">
+                <h1 style={{ fontSize: "35px" }} className="poppins-Main-Heading">
+                  Team <span style={{ color: "#FF7D00" }}>Members</span>
+                </h1>
+            </div>
+            <div>
+              <img style={{ width:"110px", height:"75px", marginLeft: "-10px" }} src="/innov_projects.png" alt="logo" className="hiddens " />
+            </div>
+        </div>
+
+        <br/>
 
         <div className="flex flex-row flex-wrap justify-center gap-5 w-3/4">
   <TeamCard

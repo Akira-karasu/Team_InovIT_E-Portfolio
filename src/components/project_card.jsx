@@ -3,7 +3,7 @@ import Button from "../components/Tags.jsx";
 import IconButton from "../components/iconButton.jsx";
 import GitHubIcon from "../assets/images/github.png";
 
-function projectCard(props) {
+function ProjectCard(props) {
     return(
         <div>
            <div style={{width: "450px",height: "210px"}} className="flex bg-[#323232] rounded-[12px] border border-[#515151] text-white  shadow-lg overflow-hidden">
@@ -43,4 +43,4 @@ function projectCard(props) {
     );
 }
 
-export default projectCard;
+export default ProjectCard;
