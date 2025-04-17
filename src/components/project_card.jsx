@@ -1,4 +1,4 @@
-import { div } from "framer-motion/client"
+
 import Button from "../components/Tags.jsx";
 import IconButton from "../components/iconButton.jsx";
 import GitHubIcon from "../assets/images/github.png";

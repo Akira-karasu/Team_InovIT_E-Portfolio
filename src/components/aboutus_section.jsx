@@ -1,5 +1,3 @@
-// AboutSection.jsx
-
 function AboutSection_left() {
     return (
         <div className="hiddens flex flex-row justify-center items-center gap-5" style={{marginBottom:"25px"}}>
