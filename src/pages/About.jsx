@@ -9,7 +9,7 @@ function AboutPage() {
         <div className="w-275 flex flex-col gap-10">
           <div className="flex"> 
             <div>
-              <h1  style={{ marginTop:"35px"  }} className="hiddens text-3xl md:text-5xl font-bold poppins-Main-Heading ">
+              <h1  style={{ marginTop:"34px"  }} className="hiddens text-3xl md:text-5xl font-bold poppins-Main-Heading ">
                 About <span style={{ color: "#FF7D00" }}>us</span>
               </h1>
             </div>
