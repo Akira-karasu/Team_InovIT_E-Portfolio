@@ -7,8 +7,8 @@ function HomePage() {
 
   return (
   <div id="home" className="flex flex-col justify-center items-center" style={{marginBottom: "10px"}}>
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center justify-center max-w-6xl mx-auto px-6 gap-4 w-full">
-      <div className="hiddens text-center md:text-left p-4 h-screen">
+    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center max-w-6xl mx-auto px-6 gap-4">
+      <div className="hiddens text-center md:text-left p-4 h-screen flex flex-col place-item-center justify-center">
         <h1 className="text-3xl md:text-5xl font-bold poppins-Main-Heading">
           Innov-<span style={{ color: "#FF7D00" }}>IT</span>
         </h1>
@@ -23,7 +23,7 @@ function HomePage() {
         <img src="/innov_icon2.png" alt="logo" className="w-64 sm:w-80 md:w-96 h-auto" />
       </div>
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full h-screen max-w-6xl mx-auto px-6 gap-4" style={{}}>
+    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full mx-auto px-6 gap-4">
       <HomeCard
         img="/mission.png"
         title="Mission"
