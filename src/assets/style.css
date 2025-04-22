@@ -189,6 +189,10 @@
 body{
   background-color: #001220;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .con{

@@ -1,8 +1,8 @@
 function AboutSection_left() {
     return (
-        <div className="hiddens flex flex-row justify-center items-center gap-5" style={{marginBottom:"25px"}}>
+        <div className="flex flex-row justify-center items-center gap-5" style={{marginBottom:"25px"}}>
             <img
-                className="bg-[#323232] rounded-[12px] border border-[#515151] h-1/2 w-1/2  "
+                className="bg-[#323232] rounded-[12px] border border-[#515151] h-1/2 w-1/2"
                 src="/TeamMembers.png"
                 alt="team"
             />

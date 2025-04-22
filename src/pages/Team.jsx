@@ -59,7 +59,7 @@ function TeamPage() {
     picture="/par.png" 
     name="John Patrick B. Par"
     role="Documenter"
-    expertise={["Tester,", "Researcher", "Data Analyst"]}
+    expertise={["Tester", "Researcher", "Data Analyst"]}
     github="https://github.com/pattrick2"
     facebook="https://www.facebook.com/share/168eGmxQZo/"
     linkedin=""

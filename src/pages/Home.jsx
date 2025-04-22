@@ -13,8 +13,6 @@ function HomePage() {
           Innov-<span style={{ color: "#FF7D00" }}>IT</span>
         </h1>
 
-        <p className="poppins-Sub-Heading">This is a simple React component.</p>
-
         <h2 className="mt-4 text-lg sm:text-xl md:text-2xl poppins-Section-Titles w-90">
           We are InnovIT, a team driven by innovation in Information Technology
         </h2>
@@ -25,7 +23,7 @@ function HomePage() {
         <img src="/innov_icon2.png" alt="logo" className="w-64 sm:w-80 md:w-96 h-auto" />
       </div>
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full h-screen max-w-6xl mx-auto px-6 gap-4" style={{padding: "15px"}}>
+    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full h-screen max-w-6xl mx-auto px-6 gap-4" style={{}}>
       <HomeCard
         img="/mission.png"
         title="Mission"
