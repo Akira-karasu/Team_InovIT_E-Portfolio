@@ -2,10 +2,10 @@
 function ProjectCard(props) {
     return(
         <div>
-           <div style={{width: "450px",height: "210px"}} className="flex bg-[#323232] rounded-[12px] border border-[#515151] text-white  shadow-lg overflow-hidden">
+           <div style={{width: "450px",height: "225px"}} className="flex bg-[#323232] rounded-[12px] border border-[#515151] text-white  shadow-lg overflow-hidden">
                 {/* Left - Image */}
                 <div className="w-1/2 bg-white flex items-center justify-center p-4" style={{marginRight: "10px"}}>
-                  <img style={{height:"210px",width:"220px"}} src={props.img} alt="img"/>
+                  <img style={{height:"225px",width:"220px"}} src={props.img} alt="img"/>
                 </div>
 
                 {/* Right - Content */}
@@ -14,6 +14,7 @@ function ProjectCard(props) {
                     <h1 className="poppins-Sub-Heading">
                         <span style={{ color: "FFFFFF",fontSize: "20px" }}>{props.title}</span>
                     </h1>
+                    <p>{props.stat}</p>
 
                     <p style={{ color: "#FBAE3C",fontSize: "12px", marginTop:"1px", marginBottom:"2px" }} className="poppins-Body-Text">Description</p>
                     
@@ -26,6 +27,11 @@ function ProjectCard(props) {
                 
                     <p style={{ color: "#FBAE3C", fontSize: "12px", marginBottom:"2px" }} className="poppins-Body-Text">Link</p>
                         {props.github}
+                    
+                    
+                        
+
+                    
                 </div>
             </div>
 

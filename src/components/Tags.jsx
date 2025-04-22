@@ -1,7 +1,7 @@
 import "./button.css";
 
 
-function Tags({ text, tags }) {
+function Tags({ text, tags, done, ongoing }) {
     return (
         <div>
             
@@ -14,6 +14,18 @@ function Tags({ text, tags }) {
             {tags && (
                 <button className="tags-button">
                   {tags}
+                </button>
+            )}
+
+            {done && (
+                <button className="done-button">
+                  {done}
+                </button>
+            )}
+
+            {ongoing && (
+                <button className="ongoing-button">
+                  {ongoing}
                 </button>
             )}
 
