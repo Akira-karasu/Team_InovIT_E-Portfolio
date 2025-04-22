@@ -25,10 +25,15 @@ function ProjectPage() {
         
         <br/>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center max-w-3x1 mx-auto px-6  gap-4 text-[10px] hiddens" style={{padding: "15px"}}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 place-items-center max-w-3x1 mx-auto px-6  gap-4 text-[10px] hiddens" style={{padding: "15px"}}>
           <ProjectCard
             img="/scholarrShip.png"
             title="Scholarship System"
+            stat={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+              <Button done="Done" />
+            </div>
+            }
             description="A system that organizes, manages, and tracks scholarship applications for students and administrators."
             Button={
               <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
@@ -47,6 +52,11 @@ function ProjectPage() {
           <ProjectCard
             img="/empowerFitnessApp.png"
             title="EFA Mobile App"
+            stat={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+              <Button ongoing="On-going" />
+            </div>
+            }
             description="mobile application designed to track workouts, set goals, and motivate users toward a healthier lifestyle."
             Button={
               <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
@@ -64,6 +74,11 @@ function ProjectPage() {
           <ProjectCard
             img="/churchSystem.jpg"
             title="Church System"
+            stat={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+              <Button done="Done" />
+            </div>
+            }
             description="platform to organize mass schedules, church events, and community services at Baclaran Church."
             Button={
               <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
@@ -80,6 +95,11 @@ function ProjectPage() {
           <ProjectCard
             img="/juanBikeri.jpg"
             title="Billing System"
+            stat={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+              <Button done="Done" />
+            </div>
+            }
             description="Bakery system for managing billing, payments, and customer preference cake flavor for Juan Bikeri."
             Button={
               <div style={{marginBottom:"1px" }} className="grid grid-cols-4 gap-4" >
@@ -95,6 +115,11 @@ function ProjectPage() {
           <ProjectCard
             img="/barrangaySystem.jpg"
             title="Barrangay System"
+            stat={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+              <Button done="Done" />
+            </div>
+            }
             description="A comprehensive system to oversee resident records, barangay functions, and community events in Molino 4."
             Button={
               <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
@@ -111,6 +136,11 @@ function ProjectPage() {
           <ProjectCard
             img="/alumniSystem.jpg"
             title="Alumni System"
+            stat={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+              <Button done="Done" />
+            </div>
+            }
             description="A platform for fostering connections, managing alumni records, and promoting events and networking for CVSU Imus graduates."
             Button={
               <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
@@ -129,6 +159,11 @@ function ProjectPage() {
           <ProjectCard
             img="/cipher.jpg"
             title="Cipher Hub" 
+            stat={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+              <Button ongoing="On-going" />
+            </div>
+            }
             description="CipherHub is a powerful and user-friendly online tool for encrypting and decrypting text using various cipher algorithms."
             Button={
               <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
