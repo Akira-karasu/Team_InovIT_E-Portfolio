@@ -7,8 +7,8 @@ function HomePage() {
 
   return (
   <div id="home" className="flex flex-col justify-center items-center" style={{marginBottom: "10px"}}>
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center max-w-6xl mx-auto px-6 gap-4 h-screen w-full">
-      <div className="hiddens text-center md:text-left p-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center justify-center max-w-6xl mx-auto px-6 gap-4 w-full">
+      <div className="hiddens text-center md:text-left p-4 h-screen">
         <h1 className="text-3xl md:text-5xl font-bold poppins-Main-Heading">
           Innov-<span style={{ color: "#FF7D00" }}>IT</span>
         </h1>

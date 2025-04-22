@@ -9,7 +9,7 @@ function ContactPage() {
     return (
       <div className="con" id="contact">
         
-        <div style={{ marginTop:"890px"}}>  
+        <div>  
 
           <div className="flex flex-col justify-center items-center" style={{marginBottom: "10px"}}>
             <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full max-w-6xl mx-auto px-6 gap-4 h-screen w-full">

@@ -8,11 +8,11 @@ import GitHubIcon from "../assets/images/github.png";
 function ProjectPage() {
   useIntersectionObserver();
     return (
-      <div className="con" id="project">
+      <div className="flex flex-col items-center justify-center" style={{marginTop:"40px",marginBottom:"40px", paddingTop:"50px"}} id="project">
           
         <br/>
 
-        <div className="flex" style={{ marginTop:"500px"}}> 
+        <div className="flex"> 
             <div className="hiddens text-center md:text-left p-4 ">
                 <h1 style={{ fontSize: "35px", marginTop:"30px" }} className="poppins-Main-Heading">
                   Team <span style={{ color: "#FF7D00" }}>Projects</span>
@@ -138,7 +138,7 @@ function ProjectPage() {
             }
             github={
               <div>
-                <IconButton  githubTP={<img src={GitHubIcon} alt="GitHub" onClick={() => window.open("https://github.com/Akira-karasu/Cipher-Project.git", "_blank")}/>} />
+                <IconButton  githubTP={<img src={GitHubIcon} alt="GitHub" onClick={() => window.open("https://akira-karasu.github.io/Cipher-Project/?fbclid=IwZXh0bgNhZW0CMTEAAR0ddPTh-0USdqNSz3Bb3NxnYRKzE9mTO41x1PYKSu7ubPxxF8sRdPC6DUQ_aem_CNIeL7huUUH9YC4IahJ0PA", "_blank")}/>} />
               </div>
             }
           />
