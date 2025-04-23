@@ -1,8 +1,7 @@
 import useIntersectionObserver from "../hooks/useIntersectionObserver.jsx";
 import IconButton from "../components/iconButton.jsx";
-import GitHubIcon from "../assets/images/github.png";
-import FacebookIcon from "../assets/images/facebook.png";
-import LinkedInIcon from "../assets/images/linkedin.png";
+import GoogleIcon from "../assets/images/google.png";
+
 
 function ContactPage() {
     useIntersectionObserver();
@@ -12,7 +11,7 @@ function ContactPage() {
         <div>  
 
           <div className="flex flex-col justify-center items-center" style={{marginBottom: "10px"}}>
-            <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full max-w-6xl mx-auto px-6 gap-4 h-screen w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 place-items-center max-w-6xl mx-auto px-6 gap-4 h-screen w-full">
 
               <div className="hiddens p-4 flex justify-center">
                 <img src="/innov_contact.png" alt="logo" className="w-64 sm:w-80 md:w-96 h-auto" />
@@ -29,9 +28,10 @@ function ContactPage() {
                 </h2>
                 
                 <div style={{marginTop: "10px"}} className="grid grid-cols-6">
-                  <IconButton  github={<img src={GitHubIcon} alt="GitHub" onClick={() => window.open("https://github.com", "_blank")}/>} />
-                  <IconButton  facebook={<img src={FacebookIcon} alt="Facebook" onClick={() => window.open("https://www.facebook.com", "_blank")}/>} />
-                  <IconButton  linkedin={<img src={LinkedInIcon} alt="LinkedIn" onClick={() => window.open("https://linkedin.com", "_blank")}/>} /> 
+                  <IconButton  github={<img src={GoogleIcon} alt="Google" onClick={() => window.open("mailto:innovitsvpport@gmail.com?subject=Support%20Inquiry&body=Hello%2C%20I%20need%20help%20with...", "_blank")}
+
+                  />} />
+                  
                 </div>
 
               </div>

@@ -177,6 +177,28 @@ function ProjectPage() {
               </div>
             }
           />
+          <ProjectCard
+            img="/cravesotg.jpg"
+            title="Craves OTG"
+            stat={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+              <Button done="Done" />
+            </div>
+            }
+            description="Craves OTG is an online business that aims to serve your cravings quickly, freshly, and without any hassle."
+            Button={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+                <Button tags="HTML" />
+                <Button tags="JS" />
+                <Button tags="CSS" />
+              </div>
+            }
+            github={
+              <div>
+                <IconButton  githubTP={<img src={GitHubIcon} alt="GitHub" onClick={() => window.open("https://github.com/", "_blank")}/>} />
+              </div>
+            }
+          />
         </div>
       </div>
     );

@@ -1,6 +1,6 @@
 import "./iconButton.css";
 
-function iconButton({ github, facebook, linkedin, githubTP }){
+function iconButton({ github, facebook, linkedin, githubTP, google }) {
     return (
         <div>
 
@@ -25,6 +25,12 @@ function iconButton({ github, facebook, linkedin, githubTP }){
           {linkedin && (
              <button className="icon-btn" onClick={() => window.open("https://linkedin.com", "_blank")}>
               {linkedin}
+            </button>
+          )}
+
+          {google && (
+            <button className="icon-btn" onClick={() => window.open("https://google.com", "_blank")}>
+              {google}
             </button>
           )}
 
