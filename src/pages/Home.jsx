@@ -1,14 +1,13 @@
 import useIntersectionObserver from "../hooks/useIntersectionObserver.jsx";
 import HomeCard from "../components/home_card.jsx";
 
-
 function HomePage() {
   useIntersectionObserver();
 
   return (
   <div id="home" className="flex flex-col justify-center items-center" style={{marginBottom: "10px"}}>
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center max-w-6xl mx-auto px-6 gap-4">
-      <div className="hiddens text-center md:text-left p-4 h-screen flex flex-col place-item-center justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center max-w-6xl mx-auto px-6 gap-4 w-full h-screen sm:gap-0">
+      <div className="hiddens text-center sm:h-auto md:text-left p-4 flex flex-col place-item-center justify-center">
         <h1 className="text-3xl md:text-5xl font-bold poppins-Main-Heading">
           Innov-<span style={{ color: "#FF7D00" }}>IT</span>
         </h1>
@@ -20,10 +19,10 @@ function HomePage() {
       </div>
       
       <div className="hiddens p-4 flex justify-center">
-        <img src="/innov_icon2.png" alt="logo" className="w-64 sm:w-80 md:w-96 h-auto" />
+        <img src="/innov_icon2.png" alt="logo" className="w-64 sm:w-80 md:w-96 h-auto"/>
       </div>
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full mx-auto px-6 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full mx-auto px-6 gap-2">
       <HomeCard
         img="/mission.png"
         title="Mission"

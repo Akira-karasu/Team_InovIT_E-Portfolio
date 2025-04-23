@@ -25,7 +25,7 @@ function ProjectPage() {
         
         <br/>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 place-items-center max-w-3x1 mx-auto px-6  gap-4 text-[10px] hiddens" style={{padding: "15px"}}>
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 place-items-center max-w-3x1 mx-auto px-6  gap-4 text-[10px] hiddens" style={{padding: "15px"}}>
           <ProjectCard
             img="/scholarrShip.png"
             title="Scholarship System"
@@ -169,6 +169,7 @@ function ProjectPage() {
               <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
                 <Button tags="HTML" />
                 <Button tags="CSS" />
+                <Button tags="JS" />
               </div>
             }
             github={

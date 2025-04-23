@@ -1,6 +1,8 @@
+import "./about_section.css";
+
 function AboutSection_left() {
     return (
-        <div className="flex flex-row justify-center items-center gap-5" style={{marginBottom:"25px"}}>
+        <div className="about-us-section hiddens flex flex-row justify-center items-center gap-5" style={{marginBottom:"25px"}}>
             <img
                 className="bg-[#323232] rounded-[12px] border border-[#515151] h-1/2 w-1/2"
                 src="/TeamMembers.png"
@@ -8,9 +10,11 @@ function AboutSection_left() {
             />
             <div>
                 <h2 className="poppins-Sub-Heading" style={{ color: "#FF7D00" }}>
-                Description of expertise and focus areas                </h2>
+                Description of expertise and focus areas
+                </h2>
                 <p className="poppins-Section-Titles">
-                Join us as we explore innovation, creativity, and opportunities—step inside and discover what makes Innov-IT stand out.                </p>
+                Join us as we explore innovation, creativity, and opportunities—step inside and discover what makes Innov-IT stand out.
+                </p>
             </div>
         </div>
     );
@@ -18,7 +22,7 @@ function AboutSection_left() {
 
 function AboutSection_right() {
     return (
-        <div className="hiddens flex flex-row justify-center items-center gap-5" style={{marginBottom:"100px"}}>
+        <div className="about-us-section right-layout hiddens flex flex-row justify-center items-center gap-5" style={{marginBottom:"100px"}}>
             <div>
                 <h2 className="poppins-Sub-Heading" style={{ color: "#FF7D00" }}>
                     Team Background and Purpose

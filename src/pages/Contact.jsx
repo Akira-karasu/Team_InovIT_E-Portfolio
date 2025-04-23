@@ -20,15 +20,15 @@ function ContactPage() {
 
               <div className="hiddens text-center md:text-left p-4">
 
-                <h1 className="text-3xl md:text-5xl font-bold poppins-Main-Heading">
+                <h1 className="text-3xl md:text-5xl font-bold poppins-Main-Heading text-center">
                   Contact <span style={{ color: "#FF7D00" }}>Us</span>
                 </h1>
 
-                <h2 style={{marginTop: "10px"}} className="mt-4 text-lg sm:text-xl md:text-2xl poppins-Section-Titles w-90">
+                <h2 style={{marginTop: "10px"}} className="mt-4 text-lg sm:text-xl md:text-2xl poppins-Section-Titles w-90 text-center">
                   We are InnovIT, a team that you can reach out to for any inquiries or collaborations throught our social media platforms.
                 </h2>
                 
-                <div style={{marginTop: "10px"}} className="grid grid-cols-6">
+                <div style={{marginTop: "10px"}} className="flex flex-row justify-center gap-3">
                   <IconButton  github={<img src={GitHubIcon} alt="GitHub" onClick={() => window.open("https://github.com", "_blank")}/>} />
                   <IconButton  facebook={<img src={FacebookIcon} alt="Facebook" onClick={() => window.open("https://www.facebook.com", "_blank")}/>} />
                   <IconButton  linkedin={<img src={LinkedInIcon} alt="LinkedIn" onClick={() => window.open("https://linkedin.com", "_blank")}/>} /> 
