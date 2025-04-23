@@ -22,7 +22,7 @@ function HomePage() {
         <img src="/innov_icon2.png" alt="logo" className="w-64 sm:w-80 md:w-96 h-auto"/>
       </div>
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center w-full mx-auto px-6 gap-2">
+    <div className="flex flex-row flex-wrap justify-center gap-10 w-3/4">
       <HomeCard
         img="/mission.png"
         title="Mission"
@@ -31,7 +31,7 @@ function HomePage() {
       <HomeCard
         img="/vision.png"
         title="Vision"
-        description="As innovIT, our vision is to transform the student experience by utilizing cutting-edge technology to streamline academic management, time organization, and overall performance. We strive to empower students with innovative tools that help them thrive in both their academic pursuits and personal development."
+        description="As aspiring IT professionals, we've been doing more than writing code—we're creating digital solutions. From concept to completion, we develop websites and applications that blend front-end design with back-end functionality. We've explored various programming languages, dynamic scripting, and client-server interactions to build systems that solve problems and simplify everyday life through technology."
       />
     </div>
   </div>  
