@@ -27,7 +27,7 @@ function ContactPage() {
                   We are InnovIT, a team that you can reach out to for any inquiries or collaborations throught our social media platforms.
                 </h2>
                 
-                <div style={{marginTop: "10px"}} className="grid grid-cols-6">
+                <div style={{marginTop: "10px"}} className="flex flex-row justify-center">
                   <IconButton  github={<img src={GoogleIcon} alt="Google" onClick={() => window.open("mailto:innovitsvpport@gmail.com?subject=Support%20Inquiry&body=Hello%2C%20I%20need%20help%20with...", "_blank")}
 
                   />} />
