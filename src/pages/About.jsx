@@ -6,10 +6,10 @@ function AboutPage() {
     return (
           
       <div className="flex flex-col justify-center items-center h-auto w-full" style={{paddingTop: "5%"}} id="about">                     
-        <div className="w-275 flex flex-col gap-10">  
-          <div className="flex justify-center items-center"> 
+        <div className="w-auto flex flex-col gap-10" style={{ padding:"35px"}}>
+          <div className="flex justify-center items-center">
             <div> 
-              <h1  style={{ marginTop:"35px"  }} className="hiddens text-3xl md:text-5xl font-bold poppins-Main-Heading ">
+              <h1 className="hiddens text-3xl md:text-5xl font-bold poppins-Main-Heading">
                 About <span style={{ color: "#FF7D00" }}>us</span>
               </h1>                         
             </div>                                          

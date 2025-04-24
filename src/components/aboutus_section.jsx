@@ -5,7 +5,7 @@ function AboutSection_left() {
         <div className="about-us-section hiddens flex flex-row justify-center items-center gap-5" style={{marginBottom:"25px"}}>
             <img
                 className="bg-[#323232] rounded-[12px] border border-[#515151] h-1/2 w-1/2"
-                src="/TeamMembers.png"
+                src="/groupic.png"
                 alt="team"
             />
             <div>
