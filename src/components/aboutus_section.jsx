@@ -13,7 +13,7 @@ function AboutSection_left() {
                 Description of expertise and focus areas
                 </h2>
                 <p className="poppins-Section-Titles">
-                Join us as we explore innovation, creativity, and opportunities—step inside and discover what makes Innov-IT stand out.
+                As aspiring IT professionals, we've been doing more than writing code—we're creating digital solutions. From concept to completion, we develop websites and applications that blend front-end design with back-end functionality. We've explored various programming languages, dynamic scripting, and client-server interactions to build systems that solve problems and simplify everyday life through technology.
                 </p>
             </div>
         </div>

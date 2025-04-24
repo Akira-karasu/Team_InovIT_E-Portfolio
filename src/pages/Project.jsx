@@ -200,6 +200,32 @@ function ProjectPage() {
               </div>
             }
           />
+          <ProjectCard
+            img="/QueueManagement.png"
+            title="Queue Management"
+            stat={
+              <div style={{marginBottom:"1px" }} className="grid grid-cols-5 gap-4" >
+              <Button done="Done" />
+            </div>
+            }
+            description="is an Arduino and stand
+alone website-based system that allows users to choose their intended agenda by providing
+two options: whether they want to directly buy a uniform or line up for size fitting upon arrival."
+            Button={
+              <div style={{marginBottom:"1px" }} className="flex flex-row justify-start place-align-start text-center flex-wrap gap-1" >
+                <Button tags="HTML" />
+                <Button tags="JS" />
+                <Button tags="CSS" />
+                <Button tags="PHP" />
+                <Button tags="BS" />
+              </div>
+            }
+            github={
+              <div>
+                <IconButton  githubTP={<img src={GitHubIcon} alt="GitHub" onClick={() => window.open("https://github.com/Naksu14/Queue-Management-Device.git", "_blank")}/>} />
+              </div>
+            }
+          />
         </div>
       </div>
     );

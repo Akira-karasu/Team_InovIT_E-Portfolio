@@ -2,14 +2,14 @@
 function ProjectCard(props) {
     return(
         <div>
-           <div style={{width: "450px",height: "225px"}} className="flex bg-[#323232] rounded-[12px] border border-[#515151] text-white  shadow-lg overflow-hidden">
+           <div style={{width: "450px",height: "auto"}} className="flex bg-[#323232] rounded-[12px] border border-[#515151] text-white  shadow-lg overflow-hidden">
                 {/* Left - Image */}
                 <div className="w-1/2 bg-white flex items-center justify-center p-4" style={{marginRight: "10px"}}>
                   <img style={{height:"225px",width:"220px"}} src={props.img} alt="img"/>
                 </div>
 
-                {/* Right - Content */}
-                <div className="w-1/2 p-4" style={{marginLeft: "4px"}}>
+                {/* Right - Content */} 
+                <div className="w-1/2 p-4" style={{marginLeft: "4px" , padding:"10px 0px 10px 0px"}}>
 
                     <h1 className="poppins-Sub-Heading">
                         <span style={{ color: "FFFFFF",fontSize: "20px" }}>{props.title}</span>

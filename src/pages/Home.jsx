@@ -31,7 +31,8 @@ function HomePage() {
       <HomeCard
         img="/vision.png"
         title="Vision"
-        description="As aspiring IT professionals, we've been doing more than writing code—we're creating digital solutions. From concept to completion, we develop websites and applications that blend front-end design with back-end functionality. We've explored various programming languages, dynamic scripting, and client-server interactions to build systems that solve problems and simplify everyday life through technology."
+        description="As innovIT, our vision is to transform the student experience by utilizing cutting-edge technology to streamline academic management, time organization, and overall performance. We strive to empower students with innovative tools that help them thrive in both their academic pursuits and personal development. Our goal is to inspire students to adopt new, more effective learning strategies, fostering a future where they possess the skills to excel not only in their studies but also in their future endeavors.
+"
       />
     </div>
   </div>  
