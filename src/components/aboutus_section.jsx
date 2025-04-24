@@ -28,7 +28,7 @@ function AboutSection_right() {
                     Team Background and Purpose
                 </h2>
                 <p className="poppins-Section-Titles">
-                    Hello! We are InnovDescription of expertise and focus areas-IT—a dynamic team of five, each with our own expertise across different areas of Information Technology. Through this portfolio website, we proudly showcase the milestones we’ve achieved while sharpening our skills in various programming languages during our journey as BSIT students at CvSU-Imus Campus.
+                Hello! We are Innov-IT—a dynamic team of five, each with our own expertise across different areas of Information Technology. Through this portfolio website, we proudly showcase the milestones we’ve achieved while sharpening our skills in various programming languages during our journey as BSIT students at CvSU-Imus Campus.
                 </p>
             </div>
             <img
